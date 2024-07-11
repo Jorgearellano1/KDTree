@@ -17,8 +17,8 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="KD_Tree">
-				<Option output="/home/.idea/KD_Tree/cmake-build-debug/KD_Tree" prefix_auto="0" extension_auto="0"/>
+			<Target title="QuadTreeKDTreeComparison">
+				<Option output="/home/.idea/KD_Tree/cmake-build-debug/QuadTreeKDTreeComparison" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/.idea/KD_Tree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 KD_Tree"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuadTreeKDTreeComparison"/>
 					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="KD_Tree/fast">
-				<Option output="/home/.idea/KD_Tree/cmake-build-debug/KD_Tree" prefix_auto="0" extension_auto="0"/>
+			<Target title="QuadTreeKDTreeComparison/fast">
+				<Option output="/home/.idea/KD_Tree/cmake-build-debug/QuadTreeKDTreeComparison" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/.idea/KD_Tree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 KD_Tree/fast"/>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 QuadTreeKDTreeComparison/fast"/>
 					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/.idea/KD_Tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -82,14 +82,26 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/.idea/KD_Tree/Box.h">
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
 		<Unit filename="/home/.idea/KD_Tree/KDTree.cpp">
-			<Option target="KD_Tree"/>
+			<Option target="QuadTreeKDTreeComparison"/>
 		</Unit>
 		<Unit filename="/home/.idea/KD_Tree/KDTree.h">
-			<Option target="KD_Tree"/>
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
+		<Unit filename="/home/.idea/KD_Tree/QuadTree.h">
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
+		<Unit filename="/home/.idea/KD_Tree/Vector2.h">
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
+		<Unit filename="/home/.idea/KD_Tree/cmake-build-debug/KD_Tree">
+			<Option target="QuadTreeKDTreeComparison"/>
 		</Unit>
 		<Unit filename="/home/.idea/KD_Tree/main.cpp">
-			<Option target="KD_Tree"/>
+			<Option target="QuadTreeKDTreeComparison"/>
 		</Unit>
 		<Unit filename="/home/.idea/KD_Tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

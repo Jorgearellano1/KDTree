@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named KD_Tree
+# Target rules for targets named QuadTreeKDTreeComparison
 
 # Build rule for target.
-KD_Tree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KD_Tree
-.PHONY : KD_Tree
+QuadTreeKDTreeComparison: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuadTreeKDTreeComparison
+.PHONY : QuadTreeKDTreeComparison
 
 # fast build rule for target.
-KD_Tree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/build
-.PHONY : KD_Tree/fast
+QuadTreeKDTreeComparison/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/build
+.PHONY : QuadTreeKDTreeComparison/fast
 
 KDTree.o: KDTree.cpp.o
 .PHONY : KDTree.o
 
 # target to build an object file
 KDTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/KDTree.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/KDTree.cpp.o
 .PHONY : KDTree.cpp.o
 
 KDTree.i: KDTree.cpp.i
@@ -142,7 +142,7 @@ KDTree.i: KDTree.cpp.i
 
 # target to preprocess a source file
 KDTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/KDTree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/KDTree.cpp.i
 .PHONY : KDTree.cpp.i
 
 KDTree.s: KDTree.cpp.s
@@ -150,7 +150,7 @@ KDTree.s: KDTree.cpp.s
 
 # target to generate assembly for a file
 KDTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/KDTree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/KDTree.cpp.s
 .PHONY : KDTree.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... KD_Tree"
+	@echo "... QuadTreeKDTreeComparison"
 	@echo "... KDTree.o"
 	@echo "... KDTree.i"
 	@echo "... KDTree.s"

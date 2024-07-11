@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/.idea/KD_Tree/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/KD_Tree.dir/all
+all: CMakeFiles/QuadTreeKDTreeComparison.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/KD_Tree.dir/clean
+clean: CMakeFiles/QuadTreeKDTreeComparison.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/KD_Tree.dir
+# Target rules for target CMakeFiles/QuadTreeKDTreeComparison.dir
 
 # All Build rule for target.
-CMakeFiles/KD_Tree.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/.idea/KD_Tree/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target KD_Tree"
-.PHONY : CMakeFiles/KD_Tree.dir/all
+CMakeFiles/QuadTreeKDTreeComparison.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/.idea/KD_Tree/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target QuadTreeKDTreeComparison"
+.PHONY : CMakeFiles/QuadTreeKDTreeComparison.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/KD_Tree.dir/rule: cmake_check_build_system
+CMakeFiles/QuadTreeKDTreeComparison.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/.idea/KD_Tree/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/KD_Tree.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QuadTreeKDTreeComparison.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/.idea/KD_Tree/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/KD_Tree.dir/rule
+.PHONY : CMakeFiles/QuadTreeKDTreeComparison.dir/rule
 
 # Convenience name for target.
-KD_Tree: CMakeFiles/KD_Tree.dir/rule
-.PHONY : KD_Tree
+QuadTreeKDTreeComparison: CMakeFiles/QuadTreeKDTreeComparison.dir/rule
+.PHONY : QuadTreeKDTreeComparison
 
 # clean rule for target.
-CMakeFiles/KD_Tree.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KD_Tree.dir/build.make CMakeFiles/KD_Tree.dir/clean
-.PHONY : CMakeFiles/KD_Tree.dir/clean
+CMakeFiles/QuadTreeKDTreeComparison.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuadTreeKDTreeComparison.dir/build.make CMakeFiles/QuadTreeKDTreeComparison.dir/clean
+.PHONY : CMakeFiles/QuadTreeKDTreeComparison.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
