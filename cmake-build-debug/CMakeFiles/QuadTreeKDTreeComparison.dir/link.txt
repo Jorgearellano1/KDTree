@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/QuadTreeKDTreeComparison.dir/main.cpp.o CMakeFiles/QuadTreeKDTreeComparison.dir/KDTree.cpp.o -o QuadTreeKDTreeComparison 

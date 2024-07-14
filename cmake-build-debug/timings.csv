@@ -1,0 +1,4 @@
+Operation,Quadtree,KDTree
+Insertion,8.568e-06,0.000162436
+Search,2.629e-06,4.8191e-05
+Deletion,3.267e-06,2.0638e-05

@@ -91,6 +91,12 @@
 		<Unit filename="/home/.idea/KD_Tree/KDTree.h">
 			<Option target="QuadTreeKDTreeComparison"/>
 		</Unit>
+		<Unit filename="/home/.idea/KD_Tree/Octree.h">
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
+		<Unit filename="/home/.idea/KD_Tree/Point3D.h">
+			<Option target="QuadTreeKDTreeComparison"/>
+		</Unit>
 		<Unit filename="/home/.idea/KD_Tree/QuadTree.h">
 			<Option target="QuadTreeKDTreeComparison"/>
 		</Unit>
